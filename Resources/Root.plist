@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>有効化</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>default</key>
+				<false/>
+				<key>defaults</key>
+				<string>com.main.kiyu4776.ui.statusbar</string>
+				<key>id</key>
+				<string>ENABLE_SWITCH</string>
+				<key>key</key>
+				<string>IsEnable</string>
+				<key>label</key>
+				<string>有効化</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string>フォーマット</string>
+				<key>footerText</key>
+				<string>yy:年
+MM:月
+dd:日
+HH:時
+mm:分
+ss:秒
+EEE:曜日
+&amp;c:CPU
+&amp;M:RAM
+\n:改行
+
+</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSEditTextCell</string>
+				<key>default</key>
+				<string>MM/dd HH:mm\n&amp;M</string>
+				<key>defaults</key>
+				<string>com.main.kiyu4776.ui.statusbar</string>
+				<key>key</key>
+				<string>CustomFormat</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>label</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>detail</key>
+				<string>ptrfixSubOptionsListController</string>
+				<key>isController</key>
+				<true/>
+				<key>label</key>
+				<string>SubOptions</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+			</dict>
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>footerText</key>
+				<string>@kiyu4776</string>
+			</dict>
+		</array>
+		<key>title</key>
+		<string>UIStatusBar</string>
+	</dict>
+</plist>

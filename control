@@ -1,0 +1,10 @@
+Package: com.main.kiyu4776.ui.statusbar
+Name: UIStatusBar
+Description: 時間のところに色々追加する v2
+Version: 0.2.1
+Architecture: iphoneos-arm64
+Maintainer: kiyu4776
+Author: kiyu4776
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), ws.hbang.common (>= 2.0)
+Icon:https://cydia-repo-kiyu4776.leapcell.app/resource/asset/tweak/UIStetusBar_icon.png

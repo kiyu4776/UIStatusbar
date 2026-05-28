@@ -1,0 +1,5 @@
+.theos/
+packages/
+a.sh
+.ssh
+make
